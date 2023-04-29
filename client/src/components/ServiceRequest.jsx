@@ -15,7 +15,7 @@ const ServiceRequest = () => {
           <input
             required
             type="email"
-            className="p-2 w-full text-black bg-[#222222]"
+            className="p-2 w-full text-white bg-[#222222]"
             placeholder="البريد الالكتروني"
           />
         </div>
