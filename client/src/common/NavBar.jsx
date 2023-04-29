@@ -12,7 +12,10 @@ const NavBar = ({navBarModal, setNavBarModal}) => {
         <button onClick={() => setNavBarModal(!navBarModal)}>
           <FiMenu size={30} />
         </button>
-        <div className=" flex-row-reverse justify-center items-center gap-4 hidden md:flex">
+        <div
+          dir="rtl"
+          className="justify-center items-center gap-4 hidden lg:flex"
+        >
           <HashLink className="text-sm lg:text-md" to={"/#"}>
             الصفحة الرئيسية
           </HashLink>
