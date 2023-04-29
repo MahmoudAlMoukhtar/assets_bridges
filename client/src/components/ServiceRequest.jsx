@@ -15,7 +15,7 @@ const ServiceRequest = () => {
           <input
             required
             type="email"
-            className="p-2 w-full text-black"
+            className="p-2 w-full text-black bg-[#222222]"
             placeholder="البريد الالكتروني"
           />
         </div>
@@ -29,13 +29,13 @@ const ServiceRequest = () => {
               <input
                 required
                 type="text"
-                className="p-2 w-full text-black"
+                className="p-2 w-full text-black bg-[#c9b289]"
                 placeholder="الاسم"
               />
             </div>
             <div className="flex flex-col w-1/2">
               <label>الصفة</label>
-              <select className="w-full text-black cursor-pointer">
+              <select className="w-full text-black bg-[#c9b289] cursor-pointer">
                 <option value="مالك الأرض">مالك الأرض</option>
                 <option value="وكيل">وكيل</option>
                 <option value="وسيط">وسيط</option>
@@ -48,7 +48,7 @@ const ServiceRequest = () => {
             <input
               required
               type="number"
-              className="p-2 w-full text-black"
+              className="p-2 w-full text-black bg-[#c9b289]"
               placeholder="رقم الجوال"
             />
           </div>
@@ -60,7 +60,7 @@ const ServiceRequest = () => {
           <div className="flex justify-between items-center gap-4 w-full">
             <div className="flex flex-col w-1/2">
               <label>موقغ الأرض</label>
-              <select className="w-full text-black cursor-pointer">
+              <select className="w-full text-black bg-[#c9b289] cursor-pointer">
                 <option value="الرياض">الرياض</option>
                 <option value="جدة">جدة</option>
                 <option value="المنطقة الشرقية">المنطقة الشرقية</option>
@@ -72,14 +72,14 @@ const ServiceRequest = () => {
               <input
                 required
                 type="number"
-                className="p-2 w-full text-black"
+                className="p-2 w-full text-black bg-[#c9b289]"
                 placeholder="المساحة"
               />
             </div>
           </div>
           <div className="flex flex-col">
             <label>الهدف من العرض</label>
-            <select className="w-full text-black cursor-pointer">
+            <select className="w-full text-black bg-[#c9b289] cursor-pointer">
               <option value="المشاركة بكامل الأرض في الصندوق">
                 المشاركة بكامل الأرض في الصندوق
               </option>

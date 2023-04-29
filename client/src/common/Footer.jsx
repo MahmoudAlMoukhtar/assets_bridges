@@ -33,10 +33,10 @@ const Footer = () => {
         </div>
       </ul>
       <ul className="flex justify-center items-center gap-2 text-white">
-        <FaInstagram size={20} />
-        <FaFacebook size={20} />
-        <FaTwitter size={20} />
-        <FaLinkedin size={20} />
+        <FaInstagram size={20} className="cursor-pointer" />
+        <FaFacebook size={20} className="cursor-pointer" />
+        <FaTwitter size={20} className="cursor-pointer" />
+        <FaLinkedin size={20} className="cursor-pointer" />
       </ul>
     </footer>
   );
