@@ -40,7 +40,11 @@ const AddedValues = () => {
           dir="rtl"
           className="item flex flex-col bg-[#c9b289] text-black p-4 "
         >
-          <img alt="" src="/icons/project-management.png" className="w-32" />
+          <img
+            alt=""
+            src="/icons/project-management.png"
+            className="w-28 sm:w-32"
+          />
           <p className="text-xl font-bold">الابتكار</p>
         </motion.div>
         <motion.div
@@ -48,7 +52,7 @@ const AddedValues = () => {
           dir="rtl"
           className="item flex flex-col bg-[#c9b289] text-black p-4 "
         >
-          <img alt="" src="/icons/transparency.png" className="w-32" />
+          <img alt="" src="/icons/transparency.png" className="w-28 sm:w-32" />
           <p className="text-xl font-bold">الشفافية</p>
         </motion.div>
         <motion.div
@@ -56,7 +60,7 @@ const AddedValues = () => {
           dir="rtl"
           className="item flex flex-col bg-[#c9b289] text-black p-4 "
         >
-          <img alt="" src="/icons/outstanding.png" className="w-32" />
+          <img alt="" src="/icons/outstanding.png" className="w-28 sm:w-32" />
           <p className="text-xl font-bold">التميز</p>
         </motion.div>
         <motion.div
@@ -64,7 +68,7 @@ const AddedValues = () => {
           dir="rtl"
           className="item flex flex-col bg-[#c9b289] text-black p-4 "
         >
-          <img alt="" src="/icons/thought.png" className="w-32" />
+          <img alt="" src="/icons/thought.png" className="w-28 sm:w-32" />
           <p className="text-xl font-bold">المعرفة العميقة</p>
         </motion.div>
       </div>
