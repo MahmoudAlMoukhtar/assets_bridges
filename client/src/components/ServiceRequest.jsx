@@ -20,7 +20,9 @@ const ServiceRequest = () => {
           />
         </div>
         <div className="flex flex-col gap-2 p-4 shadow-sm shadow-black">
-          <h6 className="text-2xl font-semibold">عن نفسك</h6>
+          <h6 className="text-2xl font-semibold text-[#c9b289]">
+            عن مقدم الطلب
+          </h6>
           <div className="flex flex-col">
             <label>اسم مقدم الطلب</label>
             <input
@@ -32,7 +34,7 @@ const ServiceRequest = () => {
           </div>
           <div className="flex flex-col">
             <label>الصفة</label>
-            <select className="w-full text-black">
+            <select className="w-full text-black cursor-pointer">
               <option value="مالك الأرض">مالك الأرض</option>
               <option value="وكيل">وكيل</option>
               <option value="وسيط">وسيط</option>
@@ -50,11 +52,11 @@ const ServiceRequest = () => {
           </div>
         </div>
         <div className="flex flex-col gap-2 p-4 shadow-sm shadow-black">
-          <h6 className="text-2xl font-semibold">عن الطلب</h6>
+          <h6 className="text-2xl font-semibold text-[#c9b289]">عن الطلب</h6>
 
           <div className="flex flex-col">
             <label>موقغ الأرض</label>
-            <select className="w-full text-black">
+            <select className="w-full text-black cursor-pointer">
               <option value="الرياض">الرياض</option>
               <option value="جدة">جدة</option>
               <option value="المنطقة الشرقية">المنطقة الشرقية</option>
@@ -72,7 +74,7 @@ const ServiceRequest = () => {
           </div>
           <div className="flex flex-col">
             <label>الهدف من العرض</label>
-            <select className="w-full text-black">
+            <select className="w-full text-black cursor-pointer">
               <option value="المشاركة بكامل الأرض في الصندوق">
                 المشاركة بكامل الأرض في الصندوق
               </option>
