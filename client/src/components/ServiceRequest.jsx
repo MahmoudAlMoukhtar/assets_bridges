@@ -21,25 +21,27 @@ const ServiceRequest = () => {
         </div>
         <div className="flex flex-col gap-2 p-4 shadow-sm shadow-black">
           <h6 className="text-2xl font-semibold text-[#c9b289]">
-            عن مقدم الطلب
+            معلومات مقدم الطلب
           </h6>
-          <div className="flex flex-col">
-            <label>اسم مقدم الطلب</label>
-            <input
-              required
-              type="text"
-              className="p-2 w-full text-black"
-              placeholder="الاسم"
-            />
-          </div>
-          <div className="flex flex-col">
-            <label>الصفة</label>
-            <select className="w-full text-black cursor-pointer">
-              <option value="مالك الأرض">مالك الأرض</option>
-              <option value="وكيل">وكيل</option>
-              <option value="وسيط">وسيط</option>
-              <option value="آخر">آخر</option>
-            </select>
+          <div className="flex justify-between items-center gap-4 w-full">
+            <div className="flex flex-col w-1/2">
+              <label>اسم مقدم الطلب</label>
+              <input
+                required
+                type="text"
+                className="p-2 w-full text-black"
+                placeholder="الاسم"
+              />
+            </div>
+            <div className="flex flex-col w-1/2">
+              <label>الصفة</label>
+              <select className="w-full text-black cursor-pointer">
+                <option value="مالك الأرض">مالك الأرض</option>
+                <option value="وكيل">وكيل</option>
+                <option value="وسيط">وسيط</option>
+                <option value="آخر">آخر</option>
+              </select>
+            </div>
           </div>
           <div className="flex flex-col">
             <label>رقم الجوال</label>
@@ -52,25 +54,28 @@ const ServiceRequest = () => {
           </div>
         </div>
         <div className="flex flex-col gap-2 p-4 shadow-sm shadow-black">
-          <h6 className="text-2xl font-semibold text-[#c9b289]">عن الطلب</h6>
-
-          <div className="flex flex-col">
-            <label>موقغ الأرض</label>
-            <select className="w-full text-black cursor-pointer">
-              <option value="الرياض">الرياض</option>
-              <option value="جدة">جدة</option>
-              <option value="المنطقة الشرقية">المنطقة الشرقية</option>
-              <option value="اخرى">اخرى</option>
-            </select>
-          </div>
-          <div className="flex flex-col">
-            <label>المساحة</label>
-            <input
-              required
-              type="text"
-              className="p-2 w-full text-black"
-              placeholder="المساحة"
-            />
+          <h6 className="text-2xl font-semibold text-[#c9b289]">
+            معلومات الطلب
+          </h6>
+          <div className="flex justify-between items-center gap-4 w-full">
+            <div className="flex flex-col w-1/2">
+              <label>موقغ الأرض</label>
+              <select className="w-full text-black cursor-pointer">
+                <option value="الرياض">الرياض</option>
+                <option value="جدة">جدة</option>
+                <option value="المنطقة الشرقية">المنطقة الشرقية</option>
+                <option value="اخرى">اخرى</option>
+              </select>
+            </div>
+            <div className="flex flex-col w-1/2">
+              <label>المساحة</label>
+              <input
+                required
+                type="number"
+                className="p-2 w-full text-black"
+                placeholder="المساحة"
+              />
+            </div>
           </div>
           <div className="flex flex-col">
             <label>الهدف من العرض</label>

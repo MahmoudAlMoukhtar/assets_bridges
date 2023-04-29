@@ -33,25 +33,53 @@ const NavbarModal = ({navBarModal, setNavBarModal}) => {
           </button>
         </div>
         <ul className="flex flex-col items-center gap-12">
-          <HashLink className="text-sm lg:text-md" to={"/#"}>
+          <HashLink
+            className="text-sm lg:text-md"
+            to={"/#"}
+            onClick={() => setNavBarModal(false)}
+          >
             الصفحة الرئيسية
           </HashLink>
-          <HashLink className="text-sm lg:text-md" to={"/#aboutus"}>
+          <HashLink
+            className="text-sm lg:text-md"
+            to={"/#aboutus"}
+            onClick={() => setNavBarModal(false)}
+          >
             من نحن
           </HashLink>
-          <HashLink className="text-sm lg:text-md" to={"/#AddedValues"}>
+          <HashLink
+            className="text-sm lg:text-md"
+            to={"/#AddedValues"}
+            onClick={() => setNavBarModal(false)}
+          >
             قيمنا
           </HashLink>
-          <HashLink className="text-sm lg:text-md" to={"/#projects"}>
+          <HashLink
+            className="text-sm lg:text-md"
+            to={"/#projects"}
+            onClick={() => setNavBarModal(false)}
+          >
             مشاريعنا
           </HashLink>
-          <HashLink className="text-sm lg:text-md" to={"/#ourTeam"}>
+          <HashLink
+            className="text-sm lg:text-md"
+            to={"/#ourTeam"}
+            onClick={() => setNavBarModal(false)}
+          >
             فريقنا
           </HashLink>
-          <HashLink className="text-sm lg:text-md" to={"/#ServiceRequest"}>
+          <HashLink
+            className="text-sm lg:text-md"
+            to={"/#ServiceRequest"}
+            onClick={() => setNavBarModal(false)}
+          >
             طلب خدمة
           </HashLink>
-          <HashLink className="text-sm lg:text-md" to={"/#contactUs"}>
+          <HashLink
+            className="text-sm lg:text-md"
+            to={"/#contactUs"}
+            onClick={() => setNavBarModal(false)}
+          >
             تواصل معنا
           </HashLink>
         </ul>

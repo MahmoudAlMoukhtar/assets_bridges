@@ -7,7 +7,7 @@ import NavbarModal from "./common/NavModal";
 function App() {
   const [navBarModal, setNavBarModal] = useState(false);
   return (
-    <div className="">
+    <div className="w-full">
       <NavbarModal navBarModal={navBarModal} setNavBarModal={setNavBarModal} />
       <Routes>
         <Route

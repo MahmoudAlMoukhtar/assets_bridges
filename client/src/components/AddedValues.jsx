@@ -33,7 +33,7 @@ const AddedValues = () => {
     >
       <HeaderSection dir="" title={"القيم المضافة"} sectionNum={"02"} />
       <div
-        className={"flex justify-center flex-wrap gap-4  text-white p-2 w-full"}
+        className={"flex justify-center flex-wrap gap-4  text-white  w-full"}
       >
         <motion.div
           variants={item}

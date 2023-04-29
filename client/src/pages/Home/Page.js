@@ -11,9 +11,10 @@ import {FaMobile} from "react-icons/fa";
 import OurProjects from "../../components/OurProjects";
 import ContactUs from "../../components/ContactUs";
 import ServiceRequest from "../../components/ServiceRequest";
+import Footer from "../../common/Footer";
 const Home = ({navBarModal, setNavBarModal}) => {
   return (
-    <div className="">
+    <div className="w-full">
       <div
         id="hero_section"
         className="flex flex-col w-full sm:min-h-screen overflow-hidden items-center pb-6"
@@ -33,6 +34,7 @@ const Home = ({navBarModal, setNavBarModal}) => {
       <OurProjects />
       <ServiceRequest />
       <ContactUs />
+      <Footer />
     </div>
   );
 };
