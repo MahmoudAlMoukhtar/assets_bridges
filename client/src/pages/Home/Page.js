@@ -6,8 +6,6 @@ import BriefSection2 from "../../components/BriefSection2";
 import AddedValues from "../../components/AddedValues";
 import HeaderSection from "../../components/HeaderSection";
 import OurTeam from "../../components/OurTeam";
-import {MdEmail} from "react-icons/md";
-import {FaMobile} from "react-icons/fa";
 import OurProjects from "../../components/OurProjects";
 import ContactUs from "../../components/ContactUs";
 import ServiceRequest from "../../components/ServiceRequest";
