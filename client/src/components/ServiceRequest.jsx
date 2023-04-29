@@ -19,7 +19,10 @@ const ServiceRequest = () => {
             placeholder="البريد الالكتروني"
           />
         </div>
-        <div id="first" className="flex flex-col gap-2 p-4 shadow-sm shadow-black">
+        <div
+          id="first"
+          className="flex flex-col gap-2 p-4 shadow-sm shadow-black"
+        >
           <h6 className="text-2xl font-semibold text-[#c9b289]">
             معلومات مقدم الطلب
           </h6>
@@ -53,7 +56,10 @@ const ServiceRequest = () => {
             </select>
           </div>
         </div>
-        <div id="second" className="flex flex-col gap-2 p-4 shadow-sm shadow-black">
+        <div
+          id="second"
+          className="flex flex-col gap-2 p-4 shadow-sm shadow-black"
+        >
           <h6 className="text-2xl font-semibold text-[#c9b289]">
             معلومات الطلب
           </h6>
@@ -88,6 +94,20 @@ const ServiceRequest = () => {
               placeholder="المساحة"
             />
           </div>
+          <div className="flex flex-col w-full">
+            <label>سعر الأرض التقريبي</label>
+            <input
+              required
+              type="number"
+              className="p-2 w-full text-black bg-[#c9b289]"
+              placeholder="سعر الأرض التقريبي"
+            />
+          </div>
+          <textarea
+            rows={10}
+            className="bg-[#c9b289] p-2 text-black"
+            placeholder="معلومات اضافية"
+          />
         </div>
         <button className="bg-[#c9b289] p-2 text-black font-semibold shadow-sm shadow-black mt-2 w-full">
           إرسال
