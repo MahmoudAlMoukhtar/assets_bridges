@@ -4,7 +4,6 @@ import HeroSection from "../../components/HeroSection";
 import BriefSection from "../../components/BriefSection";
 import BriefSection2 from "../../components/BriefSection2";
 import AddedValues from "../../components/AddedValues";
-import HeaderSection from "../../components/HeaderSection";
 import OurTeam from "../../components/OurTeam";
 import OurProjects from "../../components/OurProjects";
 import ContactUs from "../../components/ContactUs";

@@ -17,13 +17,13 @@ const BriefSection2 = () => {
 
       <div
         className={
-          "flex  w-full text-white p-2  absolute mt-10 md:mt-20 lg:mt-32"
+          "flex  w-full text-white p-2  absolute mt-6 sm:mt-[-20px] md:mt-24"
         }
       >
-        <div className="flex flex-row flex-wrap justify-center w-full lg:flex-nowrap gap-10">
+        <div className="flex flex-row flex-wrap justify-center w-full lg:flex-nowrap">
           <div
             dir="rtl"
-            className="flex flex-col gap-10 p-2 w-60 sm:w-80 md:w-96 shadow-lg hover:scale-105 transtion duration-500 bg-[#222222] rounded-full py-12 sm:py-24 md:py-32  md:py-34 border-4 border-[#c9b289]  items-center mt-[-100px] sm:mr-[-60px] lg:mr-[-60px]"
+            className="flex flex-col gap-10 p-2 w-60 sm:w-72 lg:w-96 shadow-lg hover:scale-105 transtion duration-500 bg-[#222222] rounded-full py-12 sm:py-20 lg:py-32 border-4 border-[#c9b289]  items-center mt-[-40px] sm:mr-[-60px] md:mr-[-40px]"
           >
             <h3 className="text-3xl font-bold">تطلعاتنا</h3>
             <div className="text-sm flex flex-col gap-2">
@@ -39,7 +39,7 @@ const BriefSection2 = () => {
 
           <div
             dir="rtl"
-            className="flex flex-col gap-10 p-2 w-60 sm:w-80 md:w-96 shadow-lg hover:scale-105 transtion duration-500 bg-[#222222] rounded-full py-12 sm:py-24 md:py-32  md:py-34  border-4 border-[#c9b289]  items-center mt-[-100px]"
+            className="flex flex-col gap-10 p-2 w-60 sm:w-72 lg:w-96 shadow-lg hover:scale-105 transtion duration-500 bg-[#222222] rounded-full py-12 sm:py-20 lg:py-32  border-4 border-[#c9b289]  items-center mt-[-40px]"
           >
             <h3 className="text-3xl font-bold">إمكانياتنا</h3>
             <div className="text-sm flex flex-col gap-2">
@@ -54,7 +54,7 @@ const BriefSection2 = () => {
           </div>
           <div
             dir="rtl"
-            className="flex flex-col gap-10 p-2 w-60 sm:w-80 md:w-96 shadow-lg hover:scale-105 transtion duration-500 bg-[#222222] rounded-full py-12 sm:py-24 md:py-32   border-4 border-[#c9b289]  items-center mt-[-100px] sm:mr-[-60px] lg:ml-[-60px]"
+            className="flex flex-col gap-10 p-2 w-60 sm:w-72 lg:w-96 shadow-lg hover:scale-105 transtion duration-500 bg-[#222222] rounded-full py-12 sm:py-20 lg:py-32   border-4 border-[#c9b289]  items-center mt-[-40px] sm:mr-[-60px] md:ml-[-40px]"
           >
             <h3 className="text-3xl font-bold">عناصر النجاح</h3>
             <div className="text-sm flex flex-col gap-2">
