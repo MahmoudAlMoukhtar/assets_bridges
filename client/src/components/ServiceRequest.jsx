@@ -8,7 +8,7 @@ const ServiceRequest = () => {
     >
       <HeaderSection dir="rtl" title={"طلب الخدمة"} sectionNum={"05"} />
       <form className="flex flex-col text-white gap-2" dir="rtl">
-        <div className="bg-[#c9b289] p-4 w-full shadow-lg shadow-black flex flex-col gap-2">
+        <div className="bg-[#c9b289] p-4 w-full shadow-sm shadow-black flex flex-col gap-2">
           <label className="text-2xl text-black font-semibold">
             البريد الالكتروني
           </label>
@@ -19,7 +19,7 @@ const ServiceRequest = () => {
             placeholder="البريد الالكتروني"
           />
         </div>
-        <div className="flex flex-col gap-2 p-4 shadow-lg shadow-black">
+        <div className="flex flex-col gap-2 p-4 shadow-sm shadow-black">
           <h6 className="text-2xl font-semibold">عن نفسك</h6>
           <div className="flex flex-col">
             <label>اسم مقدم الطلب</label>
@@ -49,7 +49,7 @@ const ServiceRequest = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-2 p-4 shadow-lg shadow-black">
+        <div className="flex flex-col gap-2 p-4 shadow-sm shadow-black">
           <h6 className="text-2xl font-semibold">عن الطلب</h6>
 
           <div className="flex flex-col">
@@ -81,7 +81,7 @@ const ServiceRequest = () => {
             </select>
           </div>
         </div>
-        <button className="bg-[#c9b289] p-2 text-black font-semibold shadow-md shadow-black mt-2 w-full">
+        <button className="bg-[#c9b289] p-2 text-black font-semibold shadow-sm shadow-black mt-2 w-full">
           إرسال
         </button>
       </form>
