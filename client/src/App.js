@@ -3,6 +3,7 @@ import {Routes, Route} from "react-router-dom";
 import Home from "./pages/Home/Page";
 import "./App.css";
 import NavbarModal from "./common/NavModal";
+import Footer from "./common/Footer";
 
 function App() {
   const [navBarModal, setNavBarModal] = useState(false);
@@ -17,6 +18,7 @@ function App() {
           }
         />
       </Routes>
+      <Footer />
     </div>
   );
 }

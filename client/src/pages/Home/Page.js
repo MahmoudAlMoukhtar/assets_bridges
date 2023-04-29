@@ -31,7 +31,6 @@ const Home = ({navBarModal, setNavBarModal}) => {
       <OurProjects />
       <ServiceRequest />
       <ContactUs />
-      <Footer />
     </div>
   );
 };

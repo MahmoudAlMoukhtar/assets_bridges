@@ -21,13 +21,13 @@ const ContactUs = () => {
             <span className="w-1 bg-[#c9b289] h-[300px]"></span>
           </div>
           <div dir="rtl" className=" px-4">
-            <h2 className="text-[#c9b289] text-[40px] md:text-[60px] font-bold w-full">
+            <h2 className="text-[#c9b289] text-[40px] md:text-[40px] lg:text-[50px] xl:text-[60px] font-bold w-full text-center">
               تواصل معنا
             </h2>
           </div>
         </motion.div>
         <div className="flex flex-col md:flex-row">
-          <form dir="rtl" className="bg-[#c9b289] text-black w-96 p-4">
+          <form dir="rtl" className="bg-[#c9b289] text-black w-80 lg:w-96 p-4">
             <div className="flex flex-col gap-2">
               <label>الاسم الأول</label>
               <input
@@ -74,7 +74,9 @@ const ContactUs = () => {
             dir="rtl"
             className="flex flex-col gap-2 bg-[#222222] text-white p-4"
           >
-            <h3 className="text-2xl font-bold">شركة جسور الأصول العقارية</h3>
+            <h3 className="text-2xl sm:text-xl lg:text-2xl font-bold">
+              شركة جسور الأصول العقارية
+            </h3>
             <span className="h-1 bg-[#c9b289] w-full"></span>
             <div className="flex items-center gap-2">
               <MdEmail size={20} />

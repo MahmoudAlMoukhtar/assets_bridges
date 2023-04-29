@@ -3,12 +3,12 @@ import {HashLink} from "react-router-hash-link";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between items-center px-4 sm:px-10 md:px-20 w-full py-2">
-      <HashLink to="/" className="w-48">
+    <footer className="flex justify-between items-center px-4 sm:px-10 md:px-20 w-full py-2 mt-[700px] md:mt-0 bg-[#c9b289] text-black">
+      <HashLink to="/" className="w-48 bg-[#222222] px-2">
         <img alt="logo_ar" src="/logo_ar.webp" className="w-full" />
       </HashLink>
-      <ul className="flex flex-row-reverse justify-center items-center gap-4 bg-[#c9b289]  p-4 font-semibold">
-        <div className=" flex-row-reverse justify-center items-center gap-4 hidden md:flex">
+      <ul className="flex-row-reverse justify-center items-center gap-4 bg-[#c9b289]  p-4 font-semibold  hidden lg:flex">
+        <div className=" flex-row-reverse justify-center items-center gap-4">
           <HashLink className="text-sm lg:text-md" to={"/#"}>
             الصفحة الرئيسية
           </HashLink>
@@ -32,7 +32,7 @@ const Footer = () => {
           </HashLink>
         </div>
       </ul>
-      <ul className="flex justify-center items-center gap-2 text-white">
+      <ul className="flex justify-center items-center gap-2 text-black">
         <FaInstagram size={20} className="cursor-pointer" />
         <FaFacebook size={20} className="cursor-pointer" />
         <FaTwitter size={20} className="cursor-pointer" />
