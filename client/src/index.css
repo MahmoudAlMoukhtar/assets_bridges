@@ -17,9 +17,21 @@
 body {
   background-color: #222222;
     font-family: 'Cairo' !important;
+    
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#second ::placeholder{
+  opacity: 1;
+    /* Firefox */
+  color: #222222 !important;
+}
+#first ::placeholder{
+  opacity: 1;
+    /* Firefox */
+  color: #222222 !important;
 }
