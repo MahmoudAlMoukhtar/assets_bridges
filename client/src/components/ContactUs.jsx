@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <section id="contactUs" className="flex flex-col h-[600px] overflow-hidden">
       <img
-        src="/riyadh-saudi-arabia-king-abdullah-financial-dis-2022-11-01-06-39-16-utc.jpg"
+        src="/riyadh-saudi-arabia-king-abdullah-financial-dis-2022-11-01-06-39-16-utc (1).webp"
         alt="riyadh-saudi-arabia-king-abdullah-financial-dis"
         className="brightness-[0.2] relative  w-full"
       />
@@ -17,7 +17,7 @@ const ContactUs = () => {
           className="flex flex-col justify-center items-center"
         >
           <div className={"flex flex-col items-center w-full"}>
-            <h2 className="text-[120px] font-bold text-[#c9b289]">05</h2>
+            <h2 className="text-[120px] font-bold text-[#c9b289]">06</h2>
             <span className="w-1 bg-[#c9b289] h-[300px]"></span>
           </div>
           <div dir="rtl" className=" px-4">

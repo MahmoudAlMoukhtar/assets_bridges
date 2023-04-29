@@ -10,6 +10,7 @@ import {MdEmail} from "react-icons/md";
 import {FaMobile} from "react-icons/fa";
 import OurProjects from "../../components/OurProjects";
 import ContactUs from "../../components/ContactUs";
+import ServiceRequest from "../../components/ServiceRequest";
 const Home = ({navBarModal, setNavBarModal}) => {
   return (
     <div className="">
@@ -23,13 +24,14 @@ const Home = ({navBarModal, setNavBarModal}) => {
       <BriefSection
         dir="rtl"
         sectionNum="01"
-        image="ithra-building-in-saudi-arabia-2023-02-23-21-04-41-utc.jpg"
+        image="ithra-building-in-saudi-arabia-2023-02-23-21-04-41-utc-1 (1).webp"
         title="من نحن؟"
       />
       <BriefSection2 />
       <AddedValues />
       <OurTeam />
       <OurProjects />
+      <ServiceRequest />
       <ContactUs />
     </div>
   );

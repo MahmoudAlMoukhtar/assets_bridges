@@ -6,7 +6,7 @@ const NavBar = ({navBarModal, setNavBarModal}) => {
   return (
     <nav className="flex flex-row-reverse justify-between items-center text-black w-full p-4">
       <Link to={"/"} className="w-48">
-        <img alt="logo_ar" src="/logo_ar.png" className="w-full" />
+        <img alt="logo_ar" src="/logo_ar.webp" className="w-full" />
       </Link>
       <ul className="flex flex-row-reverse justify-center items-center gap-4 bg-[#c9b289] translate-x-[-100px] p-4 font-semibold">
         <button onClick={() => setNavBarModal(!navBarModal)}>
@@ -19,7 +19,7 @@ const NavBar = ({navBarModal, setNavBarModal}) => {
           <HashLink className="text-sm lg:text-md" to={"/#aboutus"}>
             من نحن
           </HashLink>
-          <HashLink className="text-sm lg:text-md" to={"/#"}>
+          <HashLink className="text-sm lg:text-md" to={"/#AddedValues"}>
             قيمنا
           </HashLink>
           <HashLink className="text-sm lg:text-md" to={"/#projects"}>
@@ -27,6 +27,9 @@ const NavBar = ({navBarModal, setNavBarModal}) => {
           </HashLink>
           <HashLink className="text-sm lg:text-md" to={"/#ourTeam"}>
             فريقنا
+          </HashLink>
+          <HashLink className="text-sm lg:text-md" to={"/#ServiceRequest"}>
+            طلب خدمة
           </HashLink>
           <HashLink className="text-sm lg:text-md" to={"/#contactUs"}>
             تواصل معنا

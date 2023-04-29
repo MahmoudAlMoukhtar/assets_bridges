@@ -10,7 +10,7 @@ const BriefSection2 = () => {
       className="flex flex-col w-full py-20 md:py-4 "
     >
       <img
-        src="/jeddah-beach-saudi-arabia-red-sea-corniche-view-2023-01-18-03-54-36-utc.jpg"
+        src="/jeddah-beach-saudi-arabia-red-sea-corniche-view-2023-01-18-03-54-36-utc (1).webp"
         className="brightness-[0.5] relative h-[500px]"
         alt="jeddah-beach-saudi-arabia-red-sea-corniche-view-2023-01-18-03-54-36-utc"
       />

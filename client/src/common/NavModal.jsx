@@ -1,14 +1,5 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
 import {HashLink} from "react-router-hash-link";
-
-const activeStyle = {
-  color: "white",
-  backgroundColor: "#eab308",
-  padding: "8px",
-  borderRadius: "4px",
-  fontWeight: "bold",
-};
 
 const styles = {
   linkPages:
@@ -48,7 +39,7 @@ const NavbarModal = ({navBarModal, setNavBarModal}) => {
           <HashLink className="text-sm lg:text-md" to={"/#aboutus"}>
             من نحن
           </HashLink>
-          <HashLink className="text-sm lg:text-md" to={"/#"}>
+          <HashLink className="text-sm lg:text-md" to={"/#AddedValues"}>
             قيمنا
           </HashLink>
           <HashLink className="text-sm lg:text-md" to={"/#projects"}>
@@ -56,6 +47,9 @@ const NavbarModal = ({navBarModal, setNavBarModal}) => {
           </HashLink>
           <HashLink className="text-sm lg:text-md" to={"/#ourTeam"}>
             فريقنا
+          </HashLink>
+          <HashLink className="text-sm lg:text-md" to={"/#ServiceRequest"}>
+            طلب خدمة
           </HashLink>
           <HashLink className="text-sm lg:text-md" to={"/#contactUs"}>
             تواصل معنا

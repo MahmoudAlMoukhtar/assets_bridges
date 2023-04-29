@@ -25,10 +25,11 @@ const AddedValues = () => {
   };
   return (
     <motion.section
+      id="AddedValues"
       variants={container}
       whileInView="visible"
       initial="hidden"
-      className="flex flex-col items-center gap-2 sm:gap-10 w-full py-4 px-2 md:px-10 lg:px-20 "
+      className="flex flex-col items-center gap-2 sm:gap-10 w-full py-4 px-2 md:px-10 lg:px-20"
     >
       <HeaderSection dir="" title={"القيم المضافة"} sectionNum={"02"} />
       <div

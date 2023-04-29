@@ -34,7 +34,7 @@ const OurProjects = () => {
       >
         <motion.div variants={item} className="flex flex-col w-96">
           <img
-            src="/riyadh-saudi-arabia-king-abdullah-financial-dis-2023-03-30-00-23-36-utc.jpg"
+            src="/riyadh-saudi-arabia-king-abdullah-financial-dis-2023-03-30-00-23-36-utc (1) (1).webp"
             className="w-full"
             alt=""
           />
@@ -56,7 +56,7 @@ const OurProjects = () => {
         </motion.div>
         <motion.div variants={item} className="flex flex-col w-96">
           <img
-            src="/jeddah-saudi-arabia-city-escape-jeddah-city-2023-03-24-21-27-28-utc.jpg"
+            src="/jeddah-saudi-arabia-city-escape-jeddah-city-2023-03-24-21-27-28-utc-1.webp"
             className="w-full"
             alt=""
           />
@@ -78,7 +78,7 @@ const OurProjects = () => {
         </motion.div>
         <motion.div variants={item} className="flex flex-col w-96">
           <img
-            src="/riyadh-saudi-arabia-king-abdullah-financial-dis-2022-11-01-06-39-16-utc.jpg"
+            src="/riyadh-saudi-arabia-king-abdullah-financial-dis-2022-11-01-06-39-16-utc (1).webp"
             className="w-full"
             alt=""
           />
