@@ -7,8 +7,7 @@ import AddedValues from "../../components/AddedValues";
 import OurTeam from "../../components/OurTeam";
 import OurProjects from "../../components/OurProjects";
 import ContactUs from "../../components/ContactUs";
-import ServiceRequest from "../../components/ServiceRequest";
-import Footer from "../../common/Footer";
+import ServiceRequestSection from "../../components/ServiceRequestSection";
 const Home = ({navBarModal, setNavBarModal}) => {
   return (
     <div className="w-full">
@@ -29,11 +28,14 @@ const Home = ({navBarModal, setNavBarModal}) => {
       <AddedValues />
       <OurTeam />
       <OurProjects />
-      <ServiceRequest />
+
+      <ServiceRequestSection />
       <ContactUs />
     </div>
   );
 };
 
 export default Home;
-/*  */
+/* 
+<ServiceRequest />
+*/
