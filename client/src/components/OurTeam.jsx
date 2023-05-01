@@ -11,10 +11,10 @@ const OurTeam = () => {
       className="px-4 sm:px-10 lg:px-20"
     >
       <HeaderSection dir="rtl" title={"فريق جسور"} sectionNum={"03"} />
-      <div className="flex flex-col-reverse sm:flex-row justify-center gap-4 lg:gap-20 w-full">
+      <div className="flex flex-col-reverse sm:flex-row justify-center gap-4 lg:gap-10 w-full">
         <p
           dir="rtl"
-          className="text-white w-full sm:w-1/2 text-sm lg:text-xl lg:leading-8"
+          className="text-white w-full sm:w-1/2 text-sm lg:text-lg lg:leading-8"
         >
           <div>
             <IoMdQuote color="#c9b289" size={30} />
