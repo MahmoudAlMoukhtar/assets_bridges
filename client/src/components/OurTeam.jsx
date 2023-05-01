@@ -14,7 +14,7 @@ const OurTeam = () => {
       <div className="flex flex-col-reverse sm:flex-row justify-center gap-4 lg:gap-20 w-full">
         <p
           dir="rtl"
-          className="text-white w-full sm:w-1/2 text-sm lg:text-md lg:leading-8"
+          className="text-white w-full sm:w-1/2 text-sm lg:text-xl lg:leading-8"
         >
           <div>
             <IoMdQuote color="#c9b289" size={30} />
