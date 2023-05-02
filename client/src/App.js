@@ -6,6 +6,8 @@ import NavbarModal from "./common/NavModal";
 import Footer from "./common/Footer";
 import ServiceRequestSection from "./pages/ServiceRequest/page";
 import ScrollToTop from "./components/ScrollToTop";
+import {ToastContainer} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [navBarModal, setNavBarModal] = useState(false);
@@ -31,6 +33,7 @@ function App() {
         />
       </Routes>
       <Footer />
+      <ToastContainer theme="dark" />
     </div>
   );
 }

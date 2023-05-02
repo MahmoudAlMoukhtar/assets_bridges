@@ -1,7 +1,23 @@
 import {FaMobile} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
 import {motion} from "framer-motion";
+import * as api from "../api";
+import {useState} from "react";
+import {toast} from "react-toastify";
+
 const ContactUs = () => {
+  const [contactMessage, setContactMessage] = useState({
+    firstName: "",
+    lastName: "",
+    message: "",
+    email: "",
+  });
+  const handleSubmitMessage = async e => {
+    e.preventDefault();
+    await api.sendContactMessage(contactMessage);
+    toast.success("The message has been sent successfully");
+  };
+
   return (
     <section id="contactUs" className="flex flex-col h-[600px] overflow-hidden">
       <img
@@ -27,10 +43,20 @@ const ContactUs = () => {
           </div>
         </motion.div>
         <div className="flex flex-col md:flex-row">
-          <form dir="rtl" className="bg-[#c9b289] text-black w-80 lg:w-96 p-4">
+          <form
+            dir="rtl"
+            className="bg-[#c9b289] text-black w-80 lg:w-96 p-4"
+            onSubmit={handleSubmitMessage}
+          >
             <div className="flex flex-col gap-2">
               <label>الاسم الأول</label>
               <input
+                onChange={e =>
+                  setContactMessage({
+                    ...contactMessage,
+                    firstName: e.target.value,
+                  })
+                }
                 required
                 type="text"
                 className="p-2 w-full bg-[#222222] text-white"
@@ -40,6 +66,12 @@ const ContactUs = () => {
             <div className="flex flex-col gap-2">
               <label>الاسم الثاني</label>
               <input
+                onChange={e =>
+                  setContactMessage({
+                    ...contactMessage,
+                    lastName: e.target.value,
+                  })
+                }
                 required
                 type="text"
                 className="p-2 w-full bg-[#222222] text-white"
@@ -49,6 +81,9 @@ const ContactUs = () => {
             <div className="flex flex-col gap-2">
               <label>البريد الالكتروني</label>
               <input
+                onChange={e =>
+                  setContactMessage({...contactMessage, email: e.target.value})
+                }
                 required
                 type="text"
                 className="p-2 w-full bg-[#222222] text-white"
@@ -58,6 +93,12 @@ const ContactUs = () => {
             <div className="flex flex-col gap-2">
               <label>الرسالة</label>
               <textarea
+                onChange={e =>
+                  setContactMessage({
+                    ...contactMessage,
+                    message: e.target.value,
+                  })
+                }
                 required
                 minLength={10}
                 rows={10}

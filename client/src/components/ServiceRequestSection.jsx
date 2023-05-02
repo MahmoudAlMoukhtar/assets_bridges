@@ -6,7 +6,7 @@ const ServiceRequestSection = () => {
   return (
     <motion.section
       id="ServiceRequest"
-      className="flex flex-col items-center px-4 sm:px-10 lg:px-20 my-10 w-full"
+      className="flex flex-col items-center px-4 sm:px-10 lg:px-20 mt-10 mb-28 w-full"
     >
       <HeaderSection dir="rtl" title="طلب الخدمة" sectionNum={"05"} />
       <div
