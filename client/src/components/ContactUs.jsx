@@ -121,7 +121,7 @@ const ContactUs = () => {
             <span className="h-1 bg-[#c9b289] w-full"></span>
             <div className="flex items-center gap-2">
               <MdEmail size={20} />
-              <p> aroonking@gmail.com</p>
+              <p> info@assetsbridges.com</p>
             </div>
             <div className="flex items-center gap-2">
               <FaMobile size={20} />

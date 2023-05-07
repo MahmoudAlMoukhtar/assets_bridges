@@ -25,7 +25,7 @@ const ServiceRequest = ({navBarModal, setNavBarModal}) => {
   return (
     <section
       id="ServiceRequest"
-      className=" flex flex-col items-center gap-4 px-4 sm:px-10 md:px-0 py-10"
+      className=" flex flex-col items-center gap-4 px-4 sm:px-10 md:px-10 py-10"
     >
       <NavBar navBarModal={navBarModal} setNavBarModal={setNavBarModal} />
       <form

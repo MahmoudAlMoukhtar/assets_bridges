@@ -4,6 +4,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const messagesRoutes = require("./routes/messages.js");
 const servicesRoutes = require("./routes/services.js");
+const usersRoutes = require("./routes/users.js");
 const app = express();
 
 app.use(bodyParser.json({limit: "50mb", extended: true}));
@@ -12,6 +13,7 @@ app.use(cors());
 
 app.use("/api/messages", messagesRoutes);
 app.use("/api/services", servicesRoutes);
+app.use("/api/users", usersRoutes);
 
 const PORT = process.env.PORT || 3001;
 /* process.env.MONGODB_CONNECTION */

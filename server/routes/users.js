@@ -5,11 +5,13 @@ const {
   fetchAllUsers,
   deleteUserById,
   fetchUserById,
+  updateUserById,
 } = require("../controller/users");
 const router = express.Router();
 
 router.post("/signin", signin);
 router.post("/signup", signup);
+router.put("/:id", updateUserById);
 router.get("/", fetchAllUsers);
 router.get("/:id", fetchUserById);
 router.delete("/:id", deleteUserById);

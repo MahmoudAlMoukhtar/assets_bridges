@@ -5,3 +5,20 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.box{
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.box:hover{
+  transform: rotateY(-180deg);
+  
+}
+
+.box .face{
+  position: absolute;
+  backface-visibility: hidden;
+}
