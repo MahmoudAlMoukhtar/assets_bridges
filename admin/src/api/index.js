@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3001/api",
+  baseURL: "https://assetsbridgesserver.vercel.app/api",
+  //baseURL: "http://localhost:3001/api",
 });
 
 API.interceptors.request.use(req => {

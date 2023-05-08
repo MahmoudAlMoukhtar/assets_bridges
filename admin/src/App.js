@@ -41,7 +41,6 @@ function App() {
             />
           </PrivaitRoute>
         )}
-        <PrivaitRoute></PrivaitRoute>
         <Switch>
           <Route exact path="/admin">
             <PrivaitRoute>
