@@ -18,11 +18,10 @@ const ChangePassword = ({setNavBarModal}) => {
   const user = JSON.parse(localStorage.getItem("assetsBridges"));
   const [formData, setFormData] = useState(initialState);
   const [showPassword, setShowPassword] = useState(false);
-  const [value, setValue] = useState();
   const navigait = useHistory();
-  const decoded = jwt_decode(user.token);
-  console.log(decoded);
+
   const handleSubmit = async e => {
+    const decoded = jwt_decode(user.token);
     e.preventDefault();
     const {data} = await api.updateUserData(decoded.id, formData);
     console.log(data);

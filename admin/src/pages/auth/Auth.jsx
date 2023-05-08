@@ -14,21 +14,12 @@ const Auth = () => {
   const user = JSON.parse(localStorage.getItem("assetsBridges"));
   const [formData, setFormData] = useState(initialState);
   const [showPassword, setShowPassword] = useState(false);
-  // const [isSignup, setIsSignup] = useState(true);
-  const [value, setValue] = useState();
   const navigait = useHistory();
   if (user) {
     return <Redirect to="/admin" />;
   }
   const handleSubmit = async e => {
     e.preventDefault();
-    // try {
-    //   const {data} = await api.signup({...formData, phone: value});
-    //   localStorage.setItem("assetsBridges", JSON.stringify(data));
-
-    // } catch (err) {
-    //   toast.error("This email may already exist, try another email");
-    // }
 
     const {data} = await api.signin(formData);
     localStorage.setItem("assetsBridges", JSON.stringify(data));
@@ -40,9 +31,6 @@ const Auth = () => {
     setFormData({...formData, [e.target.name]: e.target.value});
   };
 
-  // const switchMode = () => {
-  //   setIsSignup(!isSignup);
-  // };
 
   return (
     <React.Fragment>
