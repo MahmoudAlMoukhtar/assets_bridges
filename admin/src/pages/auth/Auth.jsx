@@ -31,7 +31,6 @@ const Auth = () => {
     setFormData({...formData, [e.target.name]: e.target.value});
   };
 
-
   return (
     <React.Fragment>
       <div className="flex flex-col justify-center items-center h-full mb-10  rounded w-full">
