@@ -10,9 +10,9 @@ import NavbarModal from "./components/NavModal";
 import {useState} from "react";
 import ServicesRequests from "./pages/servicesRequests/ServicesRequest";
 import Request from "./pages/servicesRequests/Request";
-import Auth from "./pages/auth/Auth";
+//import Auth from "./pages/auth/Auth";
 import PrivaitRoute from "./components/PrivaitRoute";
-import ChangePassword from "./pages/ChangePassword/ChangePassword";
+//import ChangePassword from "./pages/ChangePassword/ChangePassword";
 
 function App() {
   const [theme, selectTheme] = useState("black");
@@ -65,14 +65,6 @@ function App() {
           <Route path="/admin/messages/:id">
             <PrivaitRoute>
               <Message />
-            </PrivaitRoute>
-          </Route>
-          <Route path="/admin/auth" exact>
-            <Auth />
-          </Route>
-          <Route path="/admin/changePassword" exact>
-            <PrivaitRoute>
-              <ChangePassword setNavBarModal={setNavBarModal} />
             </PrivaitRoute>
           </Route>
         </Switch>
