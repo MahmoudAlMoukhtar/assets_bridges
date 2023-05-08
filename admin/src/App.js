@@ -23,16 +23,10 @@ function App() {
     theme === "black" ? "white" : "black";
 
   return (
-    <Router>
-      <Topbar
-        theme={theme}
-        selectTheme={selectTheme}
-        navbarModal={navbarModal}
-        setNavBarModal={setNavBarModal}
-      />
+    <div>
       <h1 className="text-white">TEST</h1>
       <h1 className="text-black">TEST</h1>
-    </Router>
+    </div>
   );
 }
 
