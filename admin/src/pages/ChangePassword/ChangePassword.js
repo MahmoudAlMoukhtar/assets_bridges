@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {BiShowAlt, BiHide} from "react-icons/bi";
-import {useHistory, Redirect} from "react-router-dom";
+import {useHistory} from "react-router-dom";
 import * as api from "../../api/index";
 import {toast} from "react-toastify";
 import jwt_decode from "jwt-decode";
