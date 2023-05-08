@@ -1,7 +1,8 @@
 {
-  "name": "lamaadmin",
+  "name": "assetsbridges",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://assetsbridges.com/admin/auth",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/data-grid": "^4.0.0-alpha.29",

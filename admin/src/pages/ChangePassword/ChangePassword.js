@@ -43,7 +43,10 @@ const ChangePassword = ({setNavBarModal}) => {
         <h2 className="text-2xl font-bold text-white text-center">
           Change Password
         </h2>
-        <form className="mt-8 space-y-6 w-full px-20" onSubmit={handleSubmit}>
+        <form
+          className="mt-8 space-y-6 w-full sm:px-10 md:px-20"
+          onSubmit={handleSubmit}
+        >
           <div className=" rounded-md shadow-sm">
             <div className="flex flex-col">
               <label htmlFor="password" className="">

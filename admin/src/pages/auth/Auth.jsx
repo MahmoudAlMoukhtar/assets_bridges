@@ -48,7 +48,10 @@ const Auth = () => {
     <React.Fragment>
       <div className="flex flex-col justify-center items-center h-full mb-10  rounded w-full">
         <h2 className="text-2xl font-bold text-white text-center">Signin</h2>
-        <form className="mt-8 space-y-6 w-full px-20" onSubmit={handleSubmit}>
+        <form
+          className="mt-8 space-y-6 w-full px-4 sm:px-10 md:px-20"
+          onSubmit={handleSubmit}
+        >
           <div className=" rounded-md shadow-sm">
             <div>
               <label htmlFor="email">email</label>
