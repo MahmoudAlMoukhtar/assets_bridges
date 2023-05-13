@@ -1,8 +1,11 @@
 import HeaderSection from "./HeaderSection";
-
+import {motion} from "framer-motion";
 const ServiceRequest = () => {
   return (
-    <section
+    <motion.section
+      initial={{opacity: 0}}
+      whileInView={{opacity: 1}}
+      transition={{duration: 2}}
       id="ServiceRequest"
       className=" flex flex-col gap-4 px-4 sm:px-10 md:px-20 my-20"
     >
@@ -113,7 +116,7 @@ const ServiceRequest = () => {
           إرسال
         </button>
       </form>
-    </section>
+    </motion.section>
   );
 };
 

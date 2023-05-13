@@ -4,21 +4,80 @@
   background-image: url('/public/heroSection (1).webp');
   background-repeat: no-repeat;
   background-size: cover;
+  max-height: 100vh !important;
 }
 
 
-.box{
+.box {
   position: relative;
+  
   transform-style: preserve-3d;
   transition: transform 1s;
+  transform-origin: right center;
 }
 
-.box:hover{
-  transform: rotateY(-180deg);
-  
-}
 
-.box .face{
+.box .face {
   position: absolute;
+
+
+  font-weight: bold;
+
+  color: white;
   backface-visibility: hidden;
+}
+
+.box .front {
+transform: translateX(0px);
+}
+
+.box .back {
+
+  transform: rotateY(180deg);
+}
+
+.box2 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  transform-origin: right center;
+}
+
+
+.box2 .face2 {
+  position: absolute;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+
+  color: white;
+  backface-visibility: hidden;
+}
+.box:hover {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+.box2 .front2 {
+transform: translateX(-0px);
+}
+
+.box2 .back2 {
+
+  transform: rotateY(180deg);
+}
+
+.swiper-pagination{
+  margin-top: 6px 
+  !important;
+}
+
+.swiper-pagination-bullet{
+  color: #c9b289;
+  background-color: #c9b289
+  !important
+  ;
 }

@@ -56,8 +56,8 @@ const BriefSection = ({dir, title, sectionNum, image, paragraph}) => {
       <div
         className={
           dir === "rtl"
-            ? "flex flex-col-reverse md:flex-row justify-between w-full text-white p-2"
-            : "flex flex-col-reverse md:flex-row-reverse justify-between w-full text-white p-2"
+            ? "flex flex-col-reverse md:flex-row justify-center w-full text-white p-2 gap-10 lg:gap-0"
+            : "flex flex-col-reverse md:flex-row-reverse justify-center w-full text-white p-2 gap-10 lg:gap-0"
         }
       >
         <motion.div
@@ -122,18 +122,20 @@ const BriefSection = ({dir, title, sectionNum, image, paragraph}) => {
           <div
             className={
               dir === "rtl"
-                ? "w-full md:w-[600px] sm:h-[400px] md:translate-x-[+100px] z-40"
-                : "w-full md:w-[600px] sm:h-[400px] md:translate-x-[-100px] z-40"
+                ? "w-full md:w-[600px] sm:h-[400px] lg:translate-x-[+100px] z-40"
+                : "w-full md:w-[600px] sm:h-[400px] lg:translate-x-[-100px] z-40"
             }
           >
             <img
+              loading="lazy"
               alt="ithra-building-in-saudi-arabia"
               src={`/${image}`}
               className="w-full h-full"
             />
           </div>
-          <div className="w-full sm:w-[400px] sm:h-[400px] brightness-[0.1] translate-y-[+50px] sm:translate-y-[-50px] hidden md:block">
+          <div className="w-full sm:w-[400px] sm:h-[400px] brightness-[0.1] translate-y-[+50px] sm:translate-y-[-50px] hidden lg:block">
             <img
+              loading="lazy"
               alt="ithra-building-in-saudi-arabia"
               src={`/${image}`}
               className="w-full h-full"

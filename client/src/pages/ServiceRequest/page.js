@@ -162,7 +162,7 @@ const ServiceRequest = ({navBarModal, setNavBarModal}) => {
                 })
               }
               required
-              type="number"
+              type="text"
               className="p-2 w-1/2 text-black bg-[#c9b289]"
               placeholder="المساحة"
             />
@@ -176,10 +176,11 @@ const ServiceRequest = ({navBarModal, setNavBarModal}) => {
                   approximateLandPrice: e.target.value,
                 })
               }
+              value={serviceRequest.approximateLandPrice}
               required
               type="number"
               className="p-2 w-1/2 text-black bg-[#c9b289]"
-              placeholder="سعر الأرض التقريبي"
+              placeholder="سعر الأرض التقريبي بالريال السعودي"
             />
           </div>
           <textarea

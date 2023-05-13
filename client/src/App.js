@@ -12,7 +12,7 @@ import "react-toastify/dist/ReactToastify.css";
 function App() {
   const [navBarModal, setNavBarModal] = useState(false);
   return (
-    <div className="w-full">
+    <div className="w-full overflow-x-hidden">
       <ScrollToTop />
       <NavbarModal navBarModal={navBarModal} setNavBarModal={setNavBarModal} />
       <Routes>

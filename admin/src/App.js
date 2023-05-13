@@ -13,6 +13,7 @@ import Request from "./pages/servicesRequests/Request";
 import Auth from "./pages/auth/Auth";
 import PrivaitRoute from "./components/PrivaitRoute";
 import ChangePassword from "./pages/ChangePassword/ChangePassword";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [theme, selectTheme] = useState("black");
@@ -76,7 +77,7 @@ function App() {
             </PrivaitRoute>
           </Route>
         </Switch>
-        <ToastContainer />
+        <ToastContainer theme="dark" />
       </div>
     </Router>
   );

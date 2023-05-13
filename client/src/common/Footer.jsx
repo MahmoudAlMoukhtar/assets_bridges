@@ -18,7 +18,11 @@ const Footer = () => {
       >
         <div className="w-52 flex flex-col items-center md:items-start">
           <HashLink to="/" className="w-52">
-            <img alt="logo_ar" src="/logo_ar.webp" className="w-full" />
+            <img
+              alt="logo_ar"
+              src="/logo_realEstate_ar.png"
+              className="w-full"
+            />
           </HashLink>
           <ul className="flex items-center gap-2 text-white">
             <FaInstagram size={20} className="cursor-pointer" />
@@ -45,14 +49,14 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-4">
             <h6 className="text-white text-lg">مشاريع وخدمات</h6>
-            <HashLink className="text-sm lg:text-md" to={"/#projects"}>
-              مشاريعنا
+            <HashLink className="text-sm lg:text-md" to={"/#ServiceRequest"}>
+              طلب خدمة
+            </HashLink>
+            <HashLink className="text-sm lg:text-md" to={"/#experiences"}>
+              خبراتنا
             </HashLink>
             <HashLink className="text-sm lg:text-md" to={"/#ourTeam"}>
               فريقنا
-            </HashLink>
-            <HashLink className="text-sm lg:text-md" to={"/#ServiceRequest"}>
-              طلب خدمة
             </HashLink>
           </div>
           <div className="flex flex-col gap-4">

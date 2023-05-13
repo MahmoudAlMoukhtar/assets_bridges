@@ -9,7 +9,7 @@ const ServiceSchema = mongoose.Schema(
     adjective: {type: String},
     landLocation: {type: String},
     theAim: {type: String},
-    landSpace: {type: Number},
+    landSpace: {type: String},
     approximateLandPrice: {type: Number},
     additionalInformation: {type: String},
   },

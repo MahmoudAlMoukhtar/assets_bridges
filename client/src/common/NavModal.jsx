@@ -56,10 +56,10 @@ const NavbarModal = ({navBarModal, setNavBarModal}) => {
           </HashLink>
           <HashLink
             className="text-sm lg:text-md"
-            to={"/#projects"}
+            to={"/#experiences"}
             onClick={() => setNavBarModal(false)}
           >
-            مشاريعنا
+            خبراتنا
           </HashLink>
           <HashLink
             className="text-sm lg:text-md"
